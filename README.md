@@ -2,8 +2,6 @@
 
 This section describes the process of creating a docker container image using Dockerfile for x86 (Ubuntu 18.04) and Jetson Nano (JetPack 4.4) to configure the environment required to run the AI model demo using SoyNet. However, since SoyNet demo is not included in this docker container, refer to the following link.
 
-- SoyNet demo repo: [https://github.com/soynet-support/demo_yolo](https://github.com/soynet-support/demo_yolo)
-
 ### Needs
 
 ### Pre-requisite packages
