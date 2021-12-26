@@ -9,7 +9,7 @@ This section describes the process of creating a docker container image using Do
 - docker
 - nvidia-docker2
 
-### Ubuntu 20.04
+### Redhat linux 7.9
 
 1.Download and run Dockerfile
 
@@ -31,7 +31,7 @@ $ xhost +local:docker
 
 ### 3.Run docker container
 
-# For x86 ubuntu 18.04,
+# For x86 ubuntu 20.04,
 
 $ sudo docker run -ti -e DISPLAY=$DISPLAY \
 -v /tmp/.X11-unix:/tmp/.X11-unix \
