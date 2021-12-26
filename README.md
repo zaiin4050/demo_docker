@@ -1,6 +1,6 @@
 ### How to create Docker Container for SoyNet test
 
-This section describes the process of creating a docker container image using Dockerfile for x86 (Ubuntu 18.04) to configure the environment required to run the AI model demo using SoyNet. However, since SoyNet demo is not included in this docker container, refer to the following link.
+This section describes the process of creating a docker container image using Dockerfile for x86 (Ubuntu 20.04) to configure the environment required to run the AI model demo using SoyNet. However, since SoyNet demo is not included in this docker container, refer to the following link.
 
 ### Needs
 
