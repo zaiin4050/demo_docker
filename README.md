@@ -9,7 +9,7 @@ This section describes the process of creating a docker container image using Do
 - docker
 - nvidia-docker2
 
-### Ubuntu 18.04
+### Redhat linux 7.9 
 
 1.Download and run Dockerfile
 
@@ -18,7 +18,7 @@ $ cd demo_docker
 
 ### 1.dockerfile download and executre
 
-# for x86 ubuntu 18.04, 
+# for x86 ubuntu 20.04, 
 
 $ docker build -t trt20.12-py:demo -f Dockerfile.x86 .
 $ docker images
