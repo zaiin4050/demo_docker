@@ -1,6 +1,9 @@
 FROM nvcr.io/nvidia/tensorrt:20.12-py3
 # CUDA 11.1 / cuDNN 8.0.5 / TensorRT 7.2.2 - Tesla 아키텍처 이상, nvidia-driver 440.30 이상
 
+# FROM nvcr.io/nvidia/tensorrt:20.09-py3
+# CUDA 11.0 / cuDNN 8.0.4 / TensorRT 7.1.3 - Tesla 아키텍처 이상, nvidia-driver 440.30 이상
+
 WORKDIR /
 RUN ["/bin/bash"]
 
